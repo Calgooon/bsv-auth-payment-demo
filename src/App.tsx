@@ -1,9 +1,7 @@
 import { useState, useCallback } from 'react'
 import { authFetch } from './wallet'
 
-const SERVER = import.meta.env.DEV
-  ? 'http://localhost:8787'
-  : 'https://poc-server.dev-a3e.workers.dev'
+const SERVER = 'https://poc-server.dev-a3e.workers.dev'
 
 interface ApiResponse {
   data: unknown
