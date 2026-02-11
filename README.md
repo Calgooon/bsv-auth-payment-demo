@@ -17,7 +17,7 @@ Live demo of BRC-31 mutual authentication and BRC-29 micropayments against a Rus
 - **Frontend:** React 19 + TypeScript + Tailwind CSS v4 + Vite
 - **Auth/Payment:** [@bsv/sdk](https://github.com/bsv-blockchain/ts-sdk) `AuthFetch` client
 - **Backend:** Rust Cloudflare Worker using [bsv-auth-cloudflare](https://github.com/Calgooon/rust-middleware) middleware
-- **Wallet:** Any BRC-100 compatible wallet (e.g. [MetaNet Client](https://metanet.io))
+- **Wallet:** Any BRC-100 compatible wallet (e.g. [MetaNet Client](https://getmetanet.com))
 
 ## Run locally
 
